@@ -1,0 +1,22 @@
+
+<div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3" style="margin-top : 50px;">
+  
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">New User</h3>
+  </div>
+  <div class="panel-body">
+    <div class="form-group">
+      <label>Name</label>
+      <input type="text" class="form-control" [(ngModel)]="name" >
+      <label>Address</label>
+      <input type="text" class="form-control" [(ngModel)]="address" >
+      <label>email</label>
+      <input type="text" class="form-control" [(ngModel)]="email" >
+      <label>Company</label>
+      <input type="text" class="form-control" [(ngModel)]="company" >
+    </div>
+    <button class="btn btn-default" (click)="addUser()" ><b>+</b> Add user</button>
+
+  </div>
+</div>
